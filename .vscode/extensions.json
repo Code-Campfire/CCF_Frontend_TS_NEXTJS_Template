@@ -1,15 +1,18 @@
 {
-    "recommendations": [
-        "dbaeumer.vscode-eslint",
-        "dsznajder.es7-react-js-snippets",
-        "eamodio.gitlens",
-        "esbenp.prettier-vscode",
-        "formulahendry.auto-close-tag",
-        "formulahendry.auto-rename-tag",
-        "ms-vsliveshare.vsliveshare",
-        "msjsdiag.debugger-for-chrome",
-        "prisma.prisma",
-        "redhat.vscode-yaml",
-        "styled-components.vscode-styled-components"
-    ]
+  "recommendations": [
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "ms-vsliveshare.vsliveshare",
+    "prisma.prisma",
+    "ms-playwright.playwright",
+    "streetsidesoftware.code-spell-checker",
+    "redhat.vscode-yaml",
+    "styled-components.vscode-styled-components",
+    "yzhang.markdown-all-in-one"
+  ]
 }

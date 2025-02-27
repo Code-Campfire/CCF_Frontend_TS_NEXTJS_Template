@@ -40,7 +40,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## pnpm installation using corepack
 
-If you are using `pnpm` as your package manager, you can use `corepack` to manage the version of `pnpm` used in this project. To install `pnpm` using `corepack`, run the following command:
+To use `pnpm` as your package manager, you can use `corepack` to manage the version of `pnpm` used in this project. To install `pnpm` using `corepack`, run the following command:
 
 ```bash
 corepack enable
@@ -55,7 +55,7 @@ To use `nvm` to manage the version of Node.js used in this project, you can foll
 1. Run the following command to install `nvm`:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
 2. Once `nvm` is installed, you can use it to install the version of Node.js specified in the `.nvmrc` file by running the following command:
