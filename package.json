@@ -6,14 +6,13 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "pnpm eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint": "pnpm eslint . -c 'eslint.config.js' --ext .js,.jsx,.ts,.tsx",
     "format": "pnpm exec prettier --write .",
     "format:check": "pnpm exec prettier --check .",
     "prepare": "husky",
     "scan:secrets": "detect-secrets-hook -v"
   },
   "dependencies": {
-    "@eslint/js": "^9.21.0",
     "dotenv": "^16.4.7",
     "next": "15.2.0",
     "react": "^19.0.0",
@@ -22,22 +21,25 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9.21.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
-    "eslint": "^9",
+    "eslint": "^9.21.0",
     "eslint-config-next": "15.2.0",
+    "eslint-config-prettier": "^10.0.2",
     "gitleaks": "^1.0.0",
     "husky": "^9.1.7",
+    "jiti": "^2.4.2",
     "prettier": "^3.0.0",
-    "typescript": "^5"
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.25.0"
   },
   "packageManager": "pnpm@10.1.0",
-
-   "eslintIgnore": [
+  "eslintIgnore": [
     "node_modules/",
     "dist/",
     "src/vendor/*.js"
