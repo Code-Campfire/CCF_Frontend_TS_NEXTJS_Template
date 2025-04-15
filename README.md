@@ -2,9 +2,29 @@
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Quick Start
 
-First, run the development server:
+### Automatic Setup
+
+For a quick start, use the provided setup scripts:
+
+- **Windows**: Run `scripts/setup-windows.bat` from the project root
+- **macOS/Linux**: Run `scripts/setup-mac.sh` from the project root
+
+These scripts will check your Node.js version, attempt to enable corepack for pnpm, and install all dependencies.
+
+**Note:** On macOS/Linux, you may need to make the script executable first:
+```bash
+chmod +x scripts/setup-mac.sh
+```
+
+**Permission Issues:** If you encounter permission errors during setup:
+- **macOS/Linux**: You might need to use `sudo` for global installations: `sudo corepack enable` or `sudo npm install -g pnpm`
+- **Windows**: Run Command Prompt or PowerShell as Administrator
+
+### Starting the Development Server
+
+Once setup is complete, start the development server:
 
 ```bash
 pnpm dev
